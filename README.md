@@ -5,6 +5,8 @@ This project is a TUI calculator that can evaluate elmentary functions.
 It should work on Linux/Mac/ Anything that can run sh scripts and java.
 <br />
 **Syntax:** qcalc *[Optional -flag]* function
+**Build Command:** mvn clean install -f; cd ./target; sudo chmod +x ./qcalc
+**Install Command:** sudo chmod +x ./qcalc
 <br />
 <br />
 <br />
