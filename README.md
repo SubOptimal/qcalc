@@ -1,7 +1,8 @@
 # Quick Calculator
-a java TUI calculator
+A java TUI calculator.
 <br />
-This project is a TUI calculator that can evaluate elmentary functions. 
+This project is a TUI calculator that can evaluate elmentary functions.
+It should work on Linux/Mac/ Anything that can run sh scripts and java.
 <br />
 **Syntax:** qcalc *[Optional -flag]* function
 <br />
