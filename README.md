@@ -11,8 +11,8 @@ This project is a TUI calculator that can evaluate elmentary functions.
 
 # screenshots
 
-
+![without verbosity](/without_verbosity.png?raw=true "without verbosity")
 <br />
 <br />
 <br />
-
+![with_verbosity](/with_verbosity.png?raw=true "with verbosity")
