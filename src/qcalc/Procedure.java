@@ -1,6 +1,6 @@
 package qcalc;
 
-
+@FunctionalInterface
 public interface Procedure {
   
   /**
