@@ -14,5 +14,6 @@ and outputs the result.
 - rm Remove. Removes the definition contained on a given line. Use -l to get the line number. **Syntax:** -rm lineNumber. 
   eg `qcalc -rm 2`
   The plugin script is saved in the directory the jar is placed in.
+  **Installation:** `mvn install` 
  # screenshots
   
