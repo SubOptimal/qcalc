@@ -52,13 +52,12 @@ public class Calculator {
    */
   public void proccess(String[] tmp) {
     args = new ArrayList<String>(Arrays.asList(tmp));
-    List<Flag> detected = flags.stream().filter((flag) -> Arrays.asList(args).contains(flag.name))
+    List<Flag> detected = flags.stream().filter((flag) -> args.contains(flag.name))
         .collect(Collectors.toList());
     detected.forEach(this::consumeFlag);
     
     String finalArg = args.get(args.size() - 1);
-    
-    if(finalArg.charAt(0) != '-' || finalArg.matches(".*\\d.*")) {
+    if(Function.isFunction(finalArg) || finalArg.indexOf('(') != -1) {
       String rawFunction = udef.mapToActual(finalArg);
       System.out.println(new Function(rawFunction, verbose).solve().toString());
     }

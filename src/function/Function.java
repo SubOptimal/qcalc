@@ -93,7 +93,7 @@ public class Function {
   /**
    * Returns true if the string represents a Function.
    */
-  public  boolean isFunction(String canidate) {
+  public static boolean isFunction(String canidate) {
     return canidate.matches(FUNCTION_MOULD);
   }
   

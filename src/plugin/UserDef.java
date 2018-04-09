@@ -120,7 +120,6 @@ public final class UserDef implements UserPlugin {
     }
     
     String prototype = getMatching(udef);
-    
     String localParams = getParams(udef);
     Scanner localParser = new Scanner(localParams);
     localParser.useDelimiter(",\\s");

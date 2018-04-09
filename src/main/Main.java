@@ -36,10 +36,11 @@ public class Main {
     calc.addFlag(new Flag("rm", () -> {
       int paramIndex = calc.getArgs().indexOf("-rm") + 1;
       String param = calc.getArgs().get(paramIndex);
-      plugin.removeDefinition(new Integer(param).intValue());
+      plugin.removeDefinition(new Integer(param));
+      calc.getArgs().remove(paramIndex);
     }));
     //*****************************************************************
-    
+
     calc.proccess(args);
   }
 }
