@@ -15,7 +15,11 @@ and outputs the result.
   eg `qcalc -rm 2`
   The plugin script is saved in the directory the jar is placed in.
   <br />
-  **Installation:** `mvn install` 
+  **Build command:** `mvn install` 
+  <br />
+  **Installation(linux):** 
+  - `chmod +x qcalc`
+  - move somewhere on your PATH or use softlink. Eg `mv ./qcalc /usr/local/lib/qcalc/` `ln -s /usr/local/lib/qcalc /usr/local/bin`
  # screenshots
  ![simple usage](/simple.png?raw=true "simple")
  ![flag usage](/flagExpose.png?raw=true "flag usages")
