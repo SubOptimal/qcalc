@@ -20,7 +20,7 @@ and outputs the result. Qcalc is licensed under the MIT license. See [LICENSE](/
   <br />
   **Installation(linux):** 
   - `chmod +x qcalc`
-  - move somewhere on your PATH or use softlink. Eg `mv ./qcalc /usr/local/lib/qcalc/` `ln -s /usr/local/lib/qcalc /usr/local/bin`
+  - move somewhere on your PATH or use softlink. Eg `mv ./qcalc /usr/local/lib/qcalc/` `ln -s /usr/local/lib/qcalc/qcalc /usr/local/bin`
  # screenshots
  ![simple usage](/simple.png?raw=true "simple")
  ![flag usage](/flagExpose.png?raw=true "flag usages")
