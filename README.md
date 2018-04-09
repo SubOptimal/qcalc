@@ -6,6 +6,7 @@ and outputs the result. Qcalc is licensed under the MIT license. See [LICENSE](/
 <br />
 <br />
 **syntax:** [optional flags] "function". Eg `qcalc -v "sqrt(5^2+8^2)"`
+
 **supported flags:**
 - -v Verbose. Prints out each state change of the function as it is being solved.
 - -D Define. Defines a function which can be used in functions. 
