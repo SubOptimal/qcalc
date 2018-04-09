@@ -2,7 +2,7 @@
 A Java TUI calculator.
 
 Qcalc is a TUI calculator with a friendly user interface and custom definition support. It takes flags and a function as arguments,
-and outputs the result. Qcalc is licensed under the MIT license. See [LICENSE](/LICENSE) for more details. For pre-built releases, look [here](https://github.com/paroxayte/qcalc/releases).
+and outputs the result. Qcalc is licensed under the MIT license. See [LICENSE](/LICENSE) for more details. For pre-built releases, look [here](https://github.com/paroxayte/qcalc/releases). For detailed documentation check the [docs page](https://paroxayte.github.io/qcalc/).
 <br />
 <br />
 **syntax:** [optional flags] "function". Eg `qcalc -v "sqrt(5^2+8^2)"`
