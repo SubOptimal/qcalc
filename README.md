@@ -5,6 +5,7 @@ Qcalc is a TUI calculator with a friendly user interface and custom definition s
 and outputs the result. 
 <br />
 **syntax:** [optional flags] "function". Eg `qcalc -v "sqrt(5^2+8^2)"`
+<br />
 **supported flags:**
 - -v Verbose. Prints out each state change of the function as it is being solved.
 - -D Define. Defines a function which can be used in functions. 
