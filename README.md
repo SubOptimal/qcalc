@@ -17,4 +17,5 @@ and outputs the result.
   <br />
   **Installation:** `mvn install` 
  # screenshots
-  
+ ![simple usage](/simple.png?raw=true "simple")
+ ![flag usage](/flagExpose.png?raw=true "flag usages")
